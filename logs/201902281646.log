@@ -1,0 +1,10 @@
+2019-02-28 16:46:35,081 - BasePage - INFO - 打开浏览器
+2019-02-28 16:46:35,082 - DiscuzSearch - INFO - 获取网页
+2019-02-28 16:46:35,436 - HomePage - INFO - 登录
+2019-02-28 16:46:35,632 - DiscuzSearch - INFO - 登录成功
+2019-02-28 16:47:08,807 - HomePage - INFO - 发表
+2019-02-28 16:47:08,808 - DiscuzSearch - INFO - 发表成功
+2019-02-28 16:47:18,407 - HomePage - INFO - 回复
+2019-02-28 16:47:18,408 - DiscuzSearch - INFO - 回复成功
+2019-02-28 16:47:28,710 - HomePage - INFO - 退出
+2019-02-28 16:47:28,710 - DiscuzSearch - INFO - 退出成功
