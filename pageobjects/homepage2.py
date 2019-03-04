@@ -51,16 +51,19 @@ class HomePage2(BasePage):
         time.sleep(3)
         self.click(*self.button_qr)
 
-    def tianjia(self):
+    def tianjia(self,content):
         self.click(*self.button_gl)
         # window = self.driver.current_window_handle
         # self.driver.switch_to.window(window)
         self.driver.switch_to.window(self.driver.window_handles[1])
         time.sleep(3)
-        # self.sendkeys(content, *self.input_mm)
-        # time.sleep(3)
-        # self.click(*self.button_tj)
-        # time.sleep(3)
+        try:
+            self.sendkeys(content, *self.input_mm)
+            time.sleep(3)
+            self.click(*self.button_tj)
+            time.sleep(3)
+        except:
+            pass
         self.click(*self.button_lt)
         time.sleep(2)
         self.frame(*self.iframe)

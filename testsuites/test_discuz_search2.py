@@ -2,7 +2,6 @@ import unittest
 from testsuites.base_testcase import BaseTestCase
 from pageobjects.homepage2 import HomePage2
 from framework.logger import Logger
-import time
 logger = Logger(logger = "DiscuzSearch2").getlog()
 class DiscuzSearch2(BaseTestCase):
     def test_homepage2(self):
@@ -13,9 +12,8 @@ class DiscuzSearch2(BaseTestCase):
         logger.info("管理员登录成功")
         h2.shanchu()
         logger.info("删除成功")
-        h2.tianjia()
+        h2.tianjia("admin")
         logger.info("添加新版块成功")
-        time.sleep(2)
         h2.tuichu()
         logger.info("管理员退出成功")
         h2.denglu("admin1")

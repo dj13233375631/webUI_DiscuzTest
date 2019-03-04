@@ -20,7 +20,7 @@ suite.addTest(unittest.makeSuite(DiscuzSearch4))
 
 if __name__ == "__main__":
 
-    html_report = r"d:\baidu\report\report.html"
+    html_report = r"d:\Discuztest\report\report.html"
     bg = open(html_report,"wb")
 
     runner = HTMLTestRunner.HTMLTestRunner(stream=bg,verbosity=2,title="单元测试报告",description="用例执行情况")
